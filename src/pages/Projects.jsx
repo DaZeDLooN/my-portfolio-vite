@@ -3,6 +3,11 @@ import PageWrapper from '../components/PageWrapper';
 import ProjectCard from '../components/ProjectCard';
 import '../styles/page.css';
 
+// ✅ Import images instead of referencing root-relative paths
+import chatbotIcon from '../assets/projects/chatbot.svg';
+import jokeIcon from '../assets/projects/joke.svg';
+import musicIcon from '../assets/projects/music.svg';
+
 const projects = [
   {
     title: '1. Mood-Based Music Recommender System',
@@ -10,7 +15,7 @@ const projects = [
     link: 'https://github.com/DaZeDLooN/Mini-Projects',
     demo: 'https://music-recommender.vercel.app/',
     tags: ['Deep Learning', 'Vite', 'Yarn', 'TensorFlow', 'Keras'],
-    image: '/assets/projects/music.svg',
+    image: musicIcon,
   },
   {
     title: '2. Multi-Purpose FAQ Chatbot',
@@ -18,18 +23,17 @@ const projects = [
     link: 'https://github.com/DaZeDLooN/AI-Chatbot/tree/main/Philips',
     demo: 'https://faq-chatbot.vercel.app/',
     tags: ['NLP', 'Fetch API', 'Streamlit', 'Python', 'OpenAI'],
-    image: '/assets/projects/chatbot.svg',
+    image: chatbotIcon,
   },
   {
-    title: '3. Joke Generator Web App ',
+    title: '3. Joke Generator Web App',
     description: 'Built an interactive joke app using public APIs with support for random and user-submitted jokes, dynamic rendering, and external link integration.',
     link: 'https://github.com/DaZeDLooN/NLP-Project/tree/main/jokesAPI',
     demo: 'https://joke-generator.vercel.app/',
     tags: ['HTML', 'CSS', 'JavaScript', 'REST API', 'DOM Manipulation'],
-    image: '/assets/projects/joke.svg',
+    image: jokeIcon,
   },
 ];
-
 
 const Projects = () => {
   return (
