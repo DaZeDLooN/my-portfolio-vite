@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
+import Tilt from 'react-parallax-tilt';
 import { Link } from 'react-router-dom';
-import { Tilt } from 'react-tilt';
 import { TypeAnimation } from 'react-type-animation';
 import PageWrapper from '../components/PageWrapper';
 import ParticlesBackground from '../components/ParticlesBackground';
@@ -15,7 +15,7 @@ const Home = () => {
 
         <div className="home-container">
           <div className="card-section">
-            <Tilt className="Tilt" options={{ max: 25, scale: 1.05 }}>
+            <Tilt className="Tilt" options={{ max: 25, scale: 1.05 }} glareEnable={true} glareMaxOpacity={0.45} scale={1.02}>
               <div className="card">
                 <h1>Hello, I’m Lionel</h1>
 
