@@ -1,0 +1,83 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #1f1f2f;
+  color: white;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.links a {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.links a:hover {
+  color: #00d8ff;
+}
+
+.resume-button {
+  padding: 0.6rem 1.2rem;
+  background-color: #00d8ff;
+  color: #1f1f2f;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.resume-button:hover {
+  background-color: #00bcd4;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .resume-button,
+  .theme-toggle {
+    margin-left: 0;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #12121c;
+}
+
+.links a:hover {
+  color: #00d8ff;
+  text-shadow: 0 0 8px #00d8ff;
+}
+
+.links a.active {
+  font-weight: bold;
+  border-bottom: 2px solid #00d8ff;
+  color: #00d8ff;
+}
