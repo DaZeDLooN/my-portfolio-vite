@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://DaZeDLooN.github.io/your-portfolio",
+  "homepage": "https://DaZeDLooN.github.io/my-portfolio-vite",
   "main": "src/main.jsx",
   "scripts": {
     "dev": "vite",
