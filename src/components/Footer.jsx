@@ -1,5 +1,9 @@
 import '../styles/footer.css';
 
+// ✅ Proper imports for icons
+import gfgIcon from '../assets/icons/gfg-icon.svg';
+import leetcodeIcon from '../assets/icons/leetcode-icon.svg';
+
 const Footer = () => {
   return (
     <footer className="footer">
@@ -17,6 +21,12 @@ const Footer = () => {
         </a>
         <a href="https://linkedin.com/in/lionel-serrao-bab94623b" target="_blank" rel="noopener noreferrer" title="LinkedIn">
           <i className="fab fa-linkedin"></i>
+        </a>
+        <a href="https://www.geeksforgeeks.org/user/cyborg_25/" target="_blank" rel="noopener noreferrer" title="GeeksforGeeks">
+          <img src={gfgIcon} alt="GeeksforGeeks" className="custom-icon" />
+        </a>
+        <a href="https://leetcode.com/u/lionelserrao1/" target="_blank" rel="noopener noreferrer" title="LeetCode">
+          <img src={leetcodeIcon} alt="LeetCode" className="custom-icon" />
         </a>
       </div>
     </footer>
