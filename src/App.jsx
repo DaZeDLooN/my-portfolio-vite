@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next";
 import { AnimatePresence } from 'framer-motion';
 import { useEffect, useState } from 'react';
 import { Route, Routes, useLocation } from 'react-router-dom';
@@ -44,6 +45,7 @@ function App() {
       </AnimatePresence>
       <ScrollToTop />
       <Footer />
+      <Analytics />
     </>
   );
 }
