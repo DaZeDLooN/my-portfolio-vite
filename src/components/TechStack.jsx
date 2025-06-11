@@ -1,18 +1,32 @@
 import '../styles/techstack.css';
 
+// ✅ Updated import paths
+import cssIcon from '../assets/icons/css.svg';
+import gitIcon from '../assets/icons/git.svg';
+import htmlIcon from '../assets/icons/html5.svg';
+import jsIcon from '../assets/icons/javascript.svg';
+import mongoIcon from '../assets/icons/mongodb.svg';
+import mysqlIcon from '../assets/icons/mysql.svg';
+import nodeIcon from '../assets/icons/nodedotjs.svg';
+import pythonIcon from '../assets/icons/python.svg';
+import reactIcon from '../assets/icons/react.svg';
+import tfIcon from '../assets/icons/tensorflow.svg';
+import viteIcon from '../assets/icons/vite.svg';
+import yarnIcon from '../assets/icons/yarn.svg';
+
 const techs = [
-  { name: 'CSS', icon: '/assets/css.svg' },
-  { name: 'HTML', icon: '/assets/html5.svg' },
-  { name: 'JavaScript', icon: '/assets/javascript.svg' },
-  { name: 'Node.js', icon: '/assets/nodedotjs.svg' },
-  { name: 'Python', icon: '/assets/python.svg' },
-  { name: 'React', icon: '/assets/react.svg' },
-  { name: 'TensorFlow', icon: '/assets/tensorflow.svg' },
-  { name: 'MongoDB', icon: '/assets/mongodb.svg' },
-  { name: 'MySQL', icon: '/assets/mysql.svg' },
-  { name: 'Vite', icon: '/assets/vite.svg' },
-  { name: 'Yarn', icon: '/assets/yarn.svg' },
-  { name: 'Git', icon: '/assets/git.svg' },
+  { name: 'CSS', icon: cssIcon },
+  { name: 'HTML', icon: htmlIcon },
+  { name: 'JavaScript', icon: jsIcon },
+  { name: 'Node.js', icon: nodeIcon },
+  { name: 'Python', icon: pythonIcon },
+  { name: 'React', icon: reactIcon },
+  { name: 'TensorFlow', icon: tfIcon },
+  { name: 'MongoDB', icon: mongoIcon },
+  { name: 'MySQL', icon: mysqlIcon },
+  { name: 'Vite', icon: viteIcon },
+  { name: 'Yarn', icon: yarnIcon },
+  { name: 'Git', icon: gitIcon },
 ];
 
 const TechStack = () => {
@@ -32,3 +46,4 @@ const TechStack = () => {
 };
 
 export default TechStack;
+
