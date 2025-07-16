@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Preloader from './components/Preloader'; // 🆕 added import
 import ScrollToTop from './components/ScrollToTop';
 import ScrollToTopButton from './components/ScrollToTopButton';
+import SnowBlizzard from './components/SnowBlizzard';
 import About from './pages/About';
 import Certifications from './pages/Certifications';
 import Contact from './pages/Contact';
@@ -29,6 +30,7 @@ function App() {
 
   return (
     <>
+      <SnowBlizzard />
       <Navbar />
       <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>

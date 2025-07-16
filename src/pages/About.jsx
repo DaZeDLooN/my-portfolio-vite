@@ -47,14 +47,14 @@ const About = () => {
             <SkillBar key={idx} skill={item.skill} level={item.level} />
           ))}
         </div>
-        <a
+        {/* <a
         href="/LionelJSerrao_220968368_DSE.pdf"
         download
         className="resume-button"
         style={{ marginTop: '1.5rem', display: 'inline-block' }}
         >
         Resume
-        </a>
+        </a> */}
         <TechStack />
       </div>
     </PageWrapper>
