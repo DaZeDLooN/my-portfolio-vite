@@ -45,3 +45,24 @@
   color: #ccc;
   font-size: 0.95rem;
 }
+
+.timeline-content-with-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.timeline-text {
+  flex: 1;
+  min-width: 250px;
+}
+
+.timeline-logo img {
+  width: 48px;
+  height: auto;
+  object-fit: contain;
+  margin-top: 4px;
+  filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.1));
+}
