@@ -6,7 +6,7 @@ const experiences = [
   {
     role: '1. Frontend Web Development Intern',
     company: 'Mindstack Technologies',
-    duration: 'May 2025 – Present',
+    duration: 'May 2025 – August 2025',
     desc: 'Built and enhanced full-stack features using the MERN stack across multiple live projects. Implemented robust form handling with Formik and Yup, resolving validation bugs and enforcing schema rules. Refactored and optimized React components for better usability and maintainability. Developed a dynamic theme toggle system based on user/client intent, and contributed to mobile-responsive UI/UX enhancements.',
     logo: '/logos/mindstack-logo.jpeg',
   },
