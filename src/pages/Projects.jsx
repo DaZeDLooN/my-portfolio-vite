@@ -7,32 +7,41 @@ import '../styles/page.css';
 import chatbotIcon from '../assets/projects/chatbot.svg';
 import jokeIcon from '../assets/projects/joke.svg';
 import musicIcon from '../assets/projects/music.svg';
+import potholeIcon from '../assets/projects/pothole.svg';
 
 const projects = [
   {
-    title: '1. Mood-Based Music Recommender System',
+    title: '1. Mood-Based Music Recommender',
     description: 'Recommends music based on user mood using advanced ML & DL techniques.',
     link: 'https://github.com/DaZeDLooN/Mini-Projects',
-    demo: 'https://music-recommender.vercel.app/',
+    //demo: 'https://music-recommender.vercel.app/',
     tags: ['Deep Learning', 'Vite', 'Yarn', 'TensorFlow', 'Keras'],
     image: musicIcon,
   },
   {
-    title: '2. Multi-Purpose FAQ Chatbot',
+    title: '2. FAQ Chatbot',
     description: 'A versatile chatbot built with advanced NLP techniques to answer FAQs across various domains.',
     link: 'https://github.com/DaZeDLooN/AI-Chatbot/tree/main/Philips',
-    demo: 'https://faq-chatbot.vercel.app/',
+    //demo: 'https://faq-chatbot.vercel.app/',
     tags: ['NLP', 'Fetch API', 'Streamlit', 'Python', 'OpenAI'],
     image: chatbotIcon,
   },
   {
-    title: '3. Joke Generator Web App',
+    title: '3. Joke Generator',
     description: 'Built an interactive joke app using public APIs with support for random and user-submitted jokes, dynamic rendering, and external link integration.',
     link: 'https://github.com/DaZeDLooN/NLP-Project/tree/main/jokesAPI',
-    demo: 'https://joke-generator.vercel.app/',
+    //demo: 'https://joke-generator.vercel.app/',
     tags: ['HTML', 'CSS', 'JavaScript', 'REST API', 'DOM Manipulation'],
     image: jokeIcon,
   },
+  {
+  title: '4. Intelligent Pothole Detection',
+  description: 'Built an intelligent pothole detection system using YOLO-based object detection models trained on RDD2020.',
+  link: 'https://github.com/DaZeDLooN/Pothole-Detection',
+  //demo: 'https://your-demo-link.vercel.app/',
+  tags: ['YOLOv8','YOLOv11','TensorFlow','PyTorch','Computer Vision','Object Detection'],
+  image: potholeIcon,
+},
 ];
 
 const Projects = () => {
@@ -49,7 +58,7 @@ const Projects = () => {
                 title={proj.title}
                 description={proj.description}
                 link={proj.link}
-                demo={proj.demo}
+                //demo={proj.demo}
                 image={proj.image}
                 tags={proj.tags}
               />
