@@ -28,7 +28,7 @@ const About = () => {
     <PageWrapper>
       <div className="page">
         <AnimatedSection>
-            <h1>About Me</h1>
+            <h1 style={{color:'#00d8ff'}}>About Me</h1>
         </AnimatedSection>
         <AnimatedSection>
             <p>
